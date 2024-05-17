@@ -1,0 +1,55 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size:12px;
+	color:#444444;
+	font-weight:700;
+	font-family: Arial,Helvetica,"Noto Sans CJK SC","Noto Sans",sans-serif;
+}
+
+body {
+	 background-color:#F6F6F6;
+}
+
+a {
+	color:#444444;
+	text-decoration:none;
+}
+
+a:hover {
+	color:red;
+	text-decoration:underline;
+}
+
+i,s,em {
+	font-style:normal;
+	text-decoration:none;
+}
+
+input,img {
+	border:0 none;
+	outline-style:none;
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+}
+
+/*Чистый плавающий*/
+.clearfix:after {
+	content:"";
+	height:0;
+	line-height:0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+
+
+
+
